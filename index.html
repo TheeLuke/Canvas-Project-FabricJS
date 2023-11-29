@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
     <head>
         <title>hi</title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js" integrity="sha512-CeIsOAsgJnmevfCi2C7Zsyy6bQKi43utIjdA87Q0ZY84oDqnI0uwfM9+bKiIkI75lUeI00WG/+uJzOmuHlesMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -11,20 +11,38 @@
         <link rel="stylesheet" href="styler.css">
     <body>
         <div class="" id="buttons">
-            <button class="btn" id="clear" onclick="clearCanvas()">clear</button>
-            <button class="btn" id="undo" onclick="undo()">undo</button>
-            <button class="btn btn-secondary" type="button" id="dropdownmenu" onclick="showShapes()">
+            <button class="btn btn-outline-danger" id="clear" onclick="clearCanvas()">clear</button>
+            <button class="btn btn-outline-info" type="button" id="dropdownmenu" onclick="showShapes()">
                 add
             </button>
-            <button class="btn" id="save">save</button>
+            <button class="btn btn-outline-info" onclick="penMode()">Pen Mode</button>
+            <button class="btn btn-success" id="save" onclick="save()">save</button>
+
             <div class="hidden" id="shape-buttons">
                 <button class="btn" onclick="add(1)">Rectangle</button>
                 <button class="btn" onclick="add(2)">Triangle</button>
                 <button class="btn" onclick="add(3)">Circle</button>
             </div>
         </div>
-
-        <canvas id="c" width="1000" height="800" style="border:1px solid #ccc"></canvas>
-        <script src="script.js"></script>
+        <div class="row">
+            <div class="col">
+                <canvas id="c" width="1000" height="800" style="border:1px solid #ccc"></canvas>
+                <script src="script.js"></script>
+                <div class="text-center">
+                    <button class="btn btn-secondary" id="undo" onclick="undo()">undo</button>
+                    <button class="btn btn-secondary" id="undo" onclick="redo()">redo</button>
+                </div>
+            </div>
+            <div class="col">
+                <label for="color1">Primary Color:</label>
+                <input name="primary" id="color1" type="color" value="#FF0000" onchange="updateShapeColor(this.value)">
+            </div>
+            
+        </div>
+            
+        <div>
+            <label for="bgColor">BG Color:</label>
+            <input name="bgColor" id="bgColor" type="color" value="#FFFFFF" onchange="updateBGColor(this.value)">
+        </div>
     </body>
 </html>
