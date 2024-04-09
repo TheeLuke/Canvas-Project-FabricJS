@@ -1,5 +1,5 @@
 # Canvas Project using FabricJS 4.0
-Lightweight canvas utilizing the latest version of FavricJS to provide the user with a variety of tools.
+Lightweight canvas utilizing the latest version of FabricJS to provide the user with a variety of tools.
 Features include:
 - Variety of shape tools
 - On canvas object deletion and modification
