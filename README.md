@@ -19,5 +19,5 @@ This project was created for my Advanced Web Development class at Edgewood Colle
 This project will likely never be updated as it was used for my final project, for which I received a 100%.
 
 ## Developer
-Created by Luke Sullivan, Spring of 2023.
+Created by Luke Sullivan, Fall 2023.
 https://www.linkedin.com/in/luke-c-sullivan/
