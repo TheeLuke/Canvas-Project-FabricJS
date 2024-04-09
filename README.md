@@ -15,9 +15,9 @@ This project was created for my Advanced Web Development class at Edgewood Colle
 - Make sure ```index.html```, ```script.js```, ```styler.css``` are in the same directory.
 - Open ```index.html``` to begin using the canvas.
 
-## NOTICE
+## Notice
 This project will likely never be updated as it was used for my final project, for which I received a 100%.
 
-## AUTHOR
+## Developer
 Created by Luke Sullivan, Spring of 2023.
 https://www.linkedin.com/in/luke-c-sullivan/
