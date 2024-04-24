@@ -12,11 +12,8 @@ This project was created for my Advanced Web Development class at Edgewood Colle
 
 ## How to Use
 - Download the latest release that contains the code files and examples.
-- Make sure ```index.html```, ```script.js```, ```styler.css``` are in the same directory.
+- Verify that ```index.html```, ```script.js```, ```styler.css``` are in the same directory.
 - Open ```index.html``` to begin using the canvas.
-
-## Notice
-This project will likely never be updated as it was used for my final project, for which I received a 100%.
 
 ## Developer
 Created by Luke Sullivan, Fall 2023.
